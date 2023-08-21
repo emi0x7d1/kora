@@ -1,0 +1,71 @@
+---
+source: packages/kora_lexer/tests/test_lexer.rs
+description: "def extend with if else for struct an_ídentifier\n"
+input_file: packages/kora_lexer/tests/inputs/keywords.kora
+---
+[
+    Token {
+        kind: Def,
+        text: "def",
+    },
+    Token {
+        kind: Trivia,
+        text: " ",
+    },
+    Token {
+        kind: Extend,
+        text: "extend",
+    },
+    Token {
+        kind: Trivia,
+        text: " ",
+    },
+    Token {
+        kind: With,
+        text: "with",
+    },
+    Token {
+        kind: Trivia,
+        text: " ",
+    },
+    Token {
+        kind: If,
+        text: "if",
+    },
+    Token {
+        kind: Trivia,
+        text: " ",
+    },
+    Token {
+        kind: Else,
+        text: "else",
+    },
+    Token {
+        kind: Trivia,
+        text: " ",
+    },
+    Token {
+        kind: For,
+        text: "for",
+    },
+    Token {
+        kind: Trivia,
+        text: " ",
+    },
+    Token {
+        kind: Struct,
+        text: "struct",
+    },
+    Token {
+        kind: Trivia,
+        text: " ",
+    },
+    Token {
+        kind: Identifier,
+        text: "an_ídentifier",
+    },
+    Token {
+        kind: Trivia,
+        text: "\n",
+    },
+]

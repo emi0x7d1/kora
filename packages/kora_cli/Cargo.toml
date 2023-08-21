@@ -1,0 +1,8 @@
+[package]
+name = "kora_cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kora_lexer = { path = "../kora_lexer" }
+reedline = "0.22.0"

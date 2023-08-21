@@ -1,0 +1,7 @@
+vim.cmd([[ LualineRenameTab Root ]])
+vim.cmd([[ tabnew ]])
+vim.cmd([[ LualineRenameTab Lexer ]])
+vim.cmd([[ tcd ./packages/kora_lexer ]])
+vim.cmd([[ tabnew ]])
+vim.cmd([[ LualineRenameTab Cli ]])
+vim.cmd([[ tcd ../kora_cli ]])
